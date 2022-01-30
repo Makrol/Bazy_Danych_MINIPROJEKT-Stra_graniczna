@@ -8,7 +8,7 @@ CREATE TABLE ADRESY(
     miasto  VARCHAR2(20) NOT NULL,
     ulica VARCHAR2(20) NOT NULL,
     nr_budynku NUMERIC(5,0) NOT NULL,
-    nr_mieszkania NUMERIC(5,0) NOT NULL,
+    nr_mieszkania NUMERIC(5,0),
     poczta VARCHAR2(20) NOT NULL,
     kod_pocztowy VARCHAR2(6) NOT NULL
 );

@@ -44,21 +44,21 @@ INSERT INTO ADRESY VALUES(27,'Wieliczka','Krótka',75,23,'Wieliczka','43-123');
 INSERT INTO ADRESY VALUES(28,'Batowice','Mleczna',11,61,'Batowice','13-867');
 INSERT INTO ADRESY VALUES(29,'Kraków','Nowa',23,76,'Kraków','76-324');
 INSERT INTO ADRESY VALUES(30,'Kielce','Stara',54,75,'Kielce','42-876');
-INSERT INTO ADRESY VALUES(31,'Kraków','Słoneczna',44,62,'Kraków','23-467');
-INSERT INTO ADRESY VALUES(32,'Poznań','Wesoła',45,41,'Poznań','21-456');
-INSERT INTO ADRESY VALUES(33,'Batowice','Mleczna',56,61,'Batowice','32-421');
-INSERT INTO ADRESY VALUES(34,'Poznań','Mleczna',56,61,'Poznań','32-421');
-INSERT INTO ADRESY VALUES(35,'Poznań','Stara',56,55,'Poznań','22-755');
-INSERT INTO ADRESY VALUES(36,'Dębniki','Makowa',12,34,'Dębniki','56-334');
-INSERT INTO ADRESY VALUES(37,'Dębniki','Słoneczna',45,31,'Dębniki','23-654');
-INSERT INTO ADRESY VALUES(38,'Wieliczka','Nowa',78,65,'Wieliczka','23-123');
-INSERT INTO ADRESY VALUES(39,'Kielce','Nowa',12,35,'Kielce','11-567');
-INSERT INTO ADRESY VALUES(40,'Kraków','Mleczna',88,43,'Kraków','23-765');
-INSERT INTO ADRESY VALUES(41,'Warszawa','Długa',23,67,'Warszawa','75-346');
-INSERT INTO ADRESY VALUES(42,'Kunów','Krótka',34,62,'Kunów','43-213');
-INSERT INTO ADRESY VALUES(43,'Nowy Sącz','Marna',98,12,'Nowy Sącz','13-234');
-INSERT INTO ADRESY VALUES(44,'Sopot','Nowa',12,13,'Sopot','76-345');
-INSERT INTO ADRESY VALUES(45,'Gdańsk','Stara',18,56,'Gdańsk','42-543');
+INSERT INTO ADRESY VALUES(31,'Kraków','Słoneczna',44,NULL,'Kraków','23-467');
+INSERT INTO ADRESY VALUES(32,'Poznań','Wesoła',45,NULL,'Poznań','21-456');
+INSERT INTO ADRESY VALUES(33,'Batowice','Mleczna',56,NULL,'Batowice','32-421');
+INSERT INTO ADRESY VALUES(34,'Poznań','Mleczna',56,NULL,'Poznań','32-421');
+INSERT INTO ADRESY VALUES(35,'Poznań','Stara',56,NULL,'Poznań','22-755');
+INSERT INTO ADRESY VALUES(36,'Dębniki','Makowa',12,NULL,'Dębniki','56-334');
+INSERT INTO ADRESY VALUES(37,'Dębniki','Słoneczna',45,NULL,'Dębniki','23-654');
+INSERT INTO ADRESY VALUES(38,'Wieliczka','Nowa',78,NULL,'Wieliczka','23-123');
+INSERT INTO ADRESY VALUES(39,'Kielce','Nowa',12,NULL,'Kielce','11-567');
+INSERT INTO ADRESY VALUES(40,'Kraków','Mleczna',88,NULL,'Kraków','23-765');
+INSERT INTO ADRESY VALUES(41,'Warszawa','Długa',23,NULL,'Warszawa','75-346');
+INSERT INTO ADRESY VALUES(42,'Kunów','Krótka',34,NULL,'Kunów','43-213');
+INSERT INTO ADRESY VALUES(43,'Nowy Sącz','Marna',98,NULL,'Nowy Sącz','13-234');
+INSERT INTO ADRESY VALUES(44,'Sopot','Nowa',12,NULL,'Sopot','76-345');
+INSERT INTO ADRESY VALUES(45,'Gdańsk','Stara',18,NULL,'Gdańsk','42-543');
 
 INSERT INTO OSOBY VALUES(1,'Janusz','Kowalski','78976556787',TO_DATE('16-10-1980','dd/mm/yyyy'),13);
 INSERT INTO OSOBY VALUES(2,'Jakub','Kucharski','79304691506',TO_DATE('15-11-1999','dd/mm/yyyy'),2);
@@ -77,12 +77,12 @@ INSERT INTO OSOBY VALUES(14,'Alicja','Szulc','37397848791',TO_DATE('3-11-1985','
 INSERT INTO OSOBY VALUES(15,'Oliwia','Nowak','15880655565',TO_DATE('8-12-1999','dd/mm/yyyy'),4);
 INSERT INTO OSOBY VALUES(16,'Jarosław','Urbański','64324064930',TO_DATE('04/09/1990','dd/mm/yyyy'),26);
 INSERT INTO OSOBY VALUES(17,'Jan','Sikorski','62292795075',TO_DATE('11/01/2001','dd/mm/yyyy'),21);
-INSERT INTO OSOBY VALUES(18,'Kajetan','Malinowski','84979035889',TO_DATE('04/12/1987','dd/mm/yyyy'),28);
-INSERT INTO OSOBY VALUES(19,'Dominik','Zakrzewski','72590788988',TO_DATE('02/04/1987','dd/mm/yyyy'),27);
+INSERT INTO OSOBY VALUES(18,'Kajetan','Malinowski','84979035889',TO_DATE('04/12/1950','dd/mm/yyyy'),28);
+INSERT INTO OSOBY VALUES(19,'Dominik','Zakrzewski','72590788988',TO_DATE('02/04/1967','dd/mm/yyyy'),27);
 INSERT INTO OSOBY VALUES(20,'Marek','Kaczmarczyk','90117791188',TO_DATE('23/11/2003','dd/mm/yyyy'),18);
 INSERT INTO OSOBY VALUES(21,'Marcin','Pietrzak','66743935972',TO_DATE('20/08/2000','dd/mm/yyyy'),29);
 INSERT INTO OSOBY VALUES(22,'Alex','Woźniak','52440545738',TO_DATE('08/05/1989','dd/mm/yyyy'),23);
-INSERT INTO OSOBY VALUES(23,'Alana','Brzezińska','81054640276',TO_DATE('11/02/1984','dd/mm/yyyy'),22);
+INSERT INTO OSOBY VALUES(23,'Alana','Brzezińska','81054640276',TO_DATE('11/02/1970','dd/mm/yyyy'),22);
 INSERT INTO OSOBY VALUES(24,'Monika','Czarnecka','20915098097',TO_DATE('01/06/1990','dd/mm/yyyy'),17);
 INSERT INTO OSOBY VALUES(25,'Elwira','Piotrowska','80276820271',TO_DATE('18/04/1997','dd/mm/yyyy'),30);
 INSERT INTO OSOBY VALUES(26,'Franciszka','Walczak','87805377389',TO_DATE('28/05/2001','dd/mm/yyyy'),24);
@@ -130,15 +130,15 @@ INSERT INTO PRACOWNICY VALUES(5,5400,'strażnik','chorąży sztabowy',5,5);
 INSERT INTO PRACOWNICY VALUES(6,6400,'strażnik','chorąży sztabowy',6,6);
 INSERT INTO PRACOWNICY VALUES(7,2300,'komendant','chorąży sztabowy',7,7);
 INSERT INTO PRACOWNICY VALUES(8,6500,'strażnik','chorąży sztabowy',8,8);
-INSERT INTO PRACOWNICY VALUES(9,1200,'strażnik','porucznik',9,9);
+INSERT INTO PRACOWNICY VALUES(9,3200,'strażnik','porucznik',9,9);
 INSERT INTO PRACOWNICY VALUES(10,8700,'strażnik','porucznik',10,10);
-INSERT INTO PRACOWNICY VALUES(11,1300,'komendant','generał dywizji',11,11);
+INSERT INTO PRACOWNICY VALUES(11,9300,'komendant','generał dywizji',11,11);
 INSERT INTO PRACOWNICY VALUES(12,8700,'komendant','generał dywizji',12,12);
 INSERT INTO PRACOWNICY VALUES(13,3400,'strażnik','generał dywizji',13,13);
 INSERT INTO PRACOWNICY VALUES(14,7800,'strażnik','generał dywizji',14,14);
 INSERT INTO PRACOWNICY VALUES(15,9800,'komendant','generał dywizji',15,15);
 
-INSERT INTO POSZUKIWANI VALUES(1,'przemyt',35);
+INSERT INTO POSZUKIWANI VALUES(1,'przemyt',16);
 INSERT INTO POSZUKIWANI VALUES(2,'kradzieże',41);
 INSERT INTO POSZUKIWANI VALUES(3,'handel narkotykami',38);
 INSERT INTO POSZUKIWANI VALUES(4,'morderstwo',37);
@@ -192,9 +192,9 @@ INSERT INTO UZBROJENIE VALUES(3,'USA','Mk 2',0.596,'2345sfset235',10,7);
 INSERT INTO UZBROJENIE VALUES(4,'Rosja','AK-47',3.8,'756456ert2354',12,12);
 INSERT INTO UZBROJENIE VALUES(5,'Niemcy','Sharg',0.5,'12414223awd1',7,8);
 INSERT INTO UZBROJENIE VALUES(6,'Polska','TONFA ESP TF2459',1,'23424323fe653',5,9);
-INSERT INTO UZBROJENIE VALUES(7,'Polska','Pirannia Pro Shock 5mln V',,'24352asd12354',15,13);
+INSERT INTO UZBROJENIE VALUES(7,'Polska','Piran Shock 5mln V',0.5,'24352asd12354',15,13);
 INSERT INTO UZBROJENIE VALUES(8,'Polska','wz2137',1.2,'54326332esf',9,15);
-INSERT INTO UZBROJENIE VALUES(9,'Belgia','FN P90',2,54,'345534sdsdv324',13,4);
+INSERT INTO UZBROJENIE VALUES(9,'Belgia','FN P90',2.54,'345534sdsdv324',13,4);
 INSERT INTO UZBROJENIE VALUES(10,'USA','Desert Eagle',2.05,'12344123asddasd2',3,11);
 INSERT INTO UZBROJENIE VALUES(11,'USA','Barrett M82A1',14,'32235awfaw1212',1,5);
 INSERT INTO UZBROJENIE VALUES(12,'Polska','wz123',3.5,'124124awd532',6,2);
@@ -202,21 +202,21 @@ INSERT INTO UZBROJENIE VALUES(13,'Polska','wz5',0.1,'234432asdwe123',8,14);
 INSERT INTO UZBROJENIE VALUES(14,'Polska','wz40',10,'124142asd7565672',11,1);
 INSERT INTO UZBROJENIE VALUES(15,'Polska','wz200',2.54,'234sefh34523',4,10);
 
-INSERT INTO PSY_TROPIACE VALUES(1,'Rex','Owczarek niemiecki','TO_DATE('29/01/2015','dd/mm/yyyy')',1)
-INSERT INTO PSY_TROPIACE VALUES(2,'Majka','Terier walijski','TO_DATE('19/03/2017','dd/mm/yyyy')',2)
-INSERT INTO PSY_TROPIACE VALUES(3,'Minko','Chodsky pes','TO_DATE('11/05/2017','dd/mm/yyyy')',3)
-INSERT INTO PSY_TROPIACE VALUES(4,'Danko','Płochacz niemiecki','TO_DATE('29/06/2020','dd/mm/yyyy')',4)
-INSERT INTO PSY_TROPIACE VALUES(5,'Totu','Owczarek niemiecki','TO_DATE('28/08/2019','dd/mm/yyyy')',5)
-INSERT INTO PSY_TROPIACE VALUES(6,'Łapka','Owczarek niemiecki','TO_DATE('27/07/2018','dd/mm/yyyy')',6)
-INSERT INTO PSY_TROPIACE VALUES(7,'Ikar','Chodsky pes','TO_DATE('26/11/2019','dd/mm/yyyy')',7)
-INSERT INTO PSY_TROPIACE VALUES(8,'Karto','Płochacz niemiecki','TO_DATE('23/02/2017','dd/mm/yyyy')',8)
-INSERT INTO PSY_TROPIACE VALUES(9,'Łotr','Terier walijski','TO_DATE('21/11/2017','dd/mm/yyyy')',9)
-INSERT INTO PSY_TROPIACE VALUES(10,'Opat','Terier walijski','TO_DATE('03/12/2016','dd/mm/yyyy')',10)
-INSERT INTO PSY_TROPIACE VALUES(11,'Iton','Jagdterrier','TO_DATE('01/01/2019','dd/mm/yyyy')',11)
-INSERT INTO PSY_TROPIACE VALUES(12,'Tutan','Jagdterrier','TO_DATE('06/01/2018','dd/mm/yyyy')',12)
-INSERT INTO PSY_TROPIACE VALUES(13,'Wartyn','Owczarki holenderskie','TO_DATE('05/10/2019','dd/mm/yyyy')',13)
-INSERT INTO PSY_TROPIACE VALUES(14,'Bonik','Owczarki holenderskie','TO_DATE('04/12/2018','dd/mm/yyyy')',14)
-INSERT INTO PSY_TROPIACE VALUES(15,'Bazar','Owczarki holenderskie','TO_DATE('19/01/2020','dd/mm/yyyy')',15)
+INSERT INTO PSY_TROPIACE VALUES(1,'Rex','Owczarek niemiecki',TO_DATE('29/01/2015','dd/mm/yyyy'),1);
+INSERT INTO PSY_TROPIACE VALUES(2,'Majka','Terier walijski',TO_DATE('19/03/2017','dd/mm/yyyy'),2);
+INSERT INTO PSY_TROPIACE VALUES(3,'Minko','Chodsky pes',TO_DATE('11/05/2017','dd/mm/yyyy'),3);
+INSERT INTO PSY_TROPIACE VALUES(4,'Danko','Płochacz niemiecki',TO_DATE('29/06/2020','dd/mm/yyyy'),4);
+INSERT INTO PSY_TROPIACE VALUES(5,'Totu','Owczarek niemiecki',TO_DATE('28/08/2019','dd/mm/yyyy'),5);
+INSERT INTO PSY_TROPIACE VALUES(6,'Łapka','Owczarek niemiecki',TO_DATE('27/07/2018','dd/mm/yyyy'),6);
+INSERT INTO PSY_TROPIACE VALUES(7,'Ikar','Chodsky pes',TO_DATE('26/11/2019','dd/mm/yyyy'),7);
+INSERT INTO PSY_TROPIACE VALUES(8,'Karto','Płochacz niemiecki',TO_DATE('23/02/2017','dd/mm/yyyy'),8);
+INSERT INTO PSY_TROPIACE VALUES(9,'Łotr','Terier walijski',TO_DATE('21/11/2017','dd/mm/yyyy'),9);
+INSERT INTO PSY_TROPIACE VALUES(10,'Opat','Terier walijski',TO_DATE('03/12/2016','dd/mm/yyyy'),10);
+INSERT INTO PSY_TROPIACE VALUES(11,'Iton','Jagdterrier',TO_DATE('01/01/2019','dd/mm/yyyy'),11);
+INSERT INTO PSY_TROPIACE VALUES(12,'Tutan','Jagdterrier',TO_DATE('06/01/2018','dd/mm/yyyy'),12);
+INSERT INTO PSY_TROPIACE VALUES(13,'Wartyn','Chodsky pes',TO_DATE('05/10/2019','dd/mm/yyyy'),13);
+INSERT INTO PSY_TROPIACE VALUES(14,'Bonik','Chodsky pes',TO_DATE('04/12/2018','dd/mm/yyyy'),14);
+INSERT INTO PSY_TROPIACE VALUES(15,'Bazar','Chodsky pes',TO_DATE('19/01/2020','dd/mm/yyyy'),15);
 
 INSERT INTO KONTROLE VALUES(1,'Poszukiwane numery rejestracyjne','narkotyki',1,15);
 INSERT INTO KONTROLE VALUES(2,'Przekroczenie prędkości','alkohol',1,14);
